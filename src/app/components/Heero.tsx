@@ -5,7 +5,7 @@ const Heero = () => {
     <div className="flex justify-center items-center space-x-4 p-4">
       {/* Image 1 */}
       <Image
-            src="/banner2.png"
+            src="/images/banner2.png"
             alt="/banner2.png"
             width={250}
             height={120}
@@ -15,7 +15,7 @@ const Heero = () => {
       {/* Image 2 */}
     
        <Image
-            src="/banner1 ss.png"
+            src="/images/banner1 ss.png"
             alt="/banner1 ss.png"
             width={250}
             height={120}
