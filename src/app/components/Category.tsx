@@ -15,7 +15,7 @@ const Category = () => {
           </div>
           <p className="text-gray-500 text-sm">Sport</p>
           <Image
-            src="/images/Car.png"
+            src="/Car.png"
             alt="Car 1"
             width={250}
             height={120}
@@ -40,7 +40,7 @@ const Category = () => {
           </div>
           <p className="text-gray-500 text-sm">Sport</p>
           <Image
-            src="/images/Car.png"
+            src="/Car.png"
             alt="Car 1"
             width={250}
             height={120}
@@ -65,7 +65,7 @@ const Category = () => {
           </div>
           <p className="text-gray-500 text-sm">Sport</p>
           <Image
-            src="/images/Car.png"
+            src="/Car.png"
             alt="Car 1"
             width={250}
             height={120}
@@ -91,7 +91,7 @@ const Category = () => {
           </div>
           <p className="text-gray-500 text-sm">Sport</p>
           <Image
-            src="/images/Car1.png"
+            src="/Car1.png"
             alt="Car 2"
             width={250}
             height={120}
@@ -118,7 +118,7 @@ const Category = () => {
           </div>
           <p className="text-gray-500 text-sm">Sedan</p>
           <Image
-            src="/images/Car4.png"
+            src="/Car4.png"
             alt="Car 3"
             width={250}
             height={120}

@@ -32,7 +32,7 @@ const Navbar = () => {
             </span>
           </div>
           <Image
-            src="/images/mypic.png"
+            src="/mypic.png"
             alt="/mypic.png"
             width={250}
             height={120}
