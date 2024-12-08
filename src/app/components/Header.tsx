@@ -1,5 +1,6 @@
 import React from "react";
 import { FaSearch, FaBell, FaHeart, FaCog } from "react-icons/fa";
+import Image from "next/image";
 
 const Navbar = () => {
   return (
@@ -30,11 +31,18 @@ const Navbar = () => {
               1
             </span>
           </div>
-          <img
+          <Image
+            src="/mypic.png"
+            alt="/mypic.png"
+            width={250}
+            height={120}
+            className="w-8 h-8 rounded-full border-2 border-gray-300"
+          />
+          {/* <img
             src="/mypic.png"
             alt="User Profile"
             className="w-8 h-8 rounded-full border-2 border-gray-300"
-          />
+          /> */}
         </div>
       </div>
     </nav>
