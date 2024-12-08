@@ -15,7 +15,7 @@ const Heero = () => {
       {/* Image 2 */}
     
        <Image
-            src="/images/banner1 ss.png"
+            src="/images/banner1.png"
             alt="/banner1 ss.png"
             width={250}
             height={120}

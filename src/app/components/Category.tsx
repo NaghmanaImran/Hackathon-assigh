@@ -91,7 +91,7 @@ const Category = () => {
           </div>
           <p className="text-gray-500 text-sm">Sport</p>
           <Image
-            src="/images/car (1).png"
+            src="/images/car1.png"
             alt="Car 2"
             width={250}
             height={120}
@@ -118,7 +118,7 @@ const Category = () => {
           </div>
           <p className="text-gray-500 text-sm">Sedan</p>
           <Image
-            src="/images/car (4).png"
+            src="/images/car4.png"
             alt="Car 3"
             width={250}
             height={120}
@@ -139,13 +139,13 @@ const Category = () => {
 
         {/* Additional Cards */}
         {[
-          { name: "All New Rush", src: "/images/car (5).png", price: "$80.00/day" },
-          { name: "CR - V", src: "/images/car (6).png", price: "$72.00/day" },
-          { name: "All New Terios", src: "/images/car (7).png", price: "$80.00/day" },
-          { name: "NMG ZX Exclusive", src: "/images/car (8).png", price: "$74.00/day" },
-          { name: "New MG ZS", src: "/images/car (9).png", price: "$80.00/day" },
-          { name: "MG ZX Excite", src: "/images/car (10).png", price: "$76.00/day" },
-          { name: "Nissan GT - R", src: "/images/car (11).png", price: "$80.00/day" },
+          { name: "All New Rush", src: "/images/car5.png", price: "$80.00/day" },
+          { name: "CR - V", src: "/images/car6.png", price: "$72.00/day" },
+          { name: "All New Terios", src: "/images/car7.png", price: "$80.00/day" },
+          { name: "NMG ZX Exclusive", src: "/images/car8.png", price: "$74.00/day" },
+          { name: "New MG ZS", src: "/images/car9.png", price: "$80.00/day" },
+          { name: "MG ZX Excite", src: "/images/car10.png", price: "$76.00/day" },
+          { name: "Nissan GT - R", src: "/images/car11.png", price: "$80.00/day" },
         ].map((car, index) => (
           <div
             key={index}
