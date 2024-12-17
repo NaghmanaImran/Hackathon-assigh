@@ -2,22 +2,25 @@ import React from "react";
 import { FaSearch, FaBell, FaHeart, FaCog } from "react-icons/fa";
 import Image from "next/image";
 
-const Navbar = () => {
+const Header = () => {
   return (
-    <nav className="bg-white shadow-lg py-4">
-      <div className="container mx-auto flex items-center justify-between px-4">
-        {/* Logo */}
-        <div className="text-blue-600 text-2xl font-bold">
-          MORENT
-        </div>
+    <nav className="bg-white shadow-lg py-4 sticky top-0 z-50">
+    <div className="container mx-auto flex items-center justify-between px-4">
+      {/* Logo */}
+      <div className="text-[#3563E9] text-2xl font-bold w-148 h-44px">
+        MORENT
+      </div>
+    
+ 
+  
 
         {/* Search Bar */}
-        <div className="flex items-center border-2 border-gray-300 rounded-full px-3 py-2 w-full md:w-1/2 lg:w-1/3">
+        <div className="flex items-center border-2 border-gray-300 rounded-full px-3 py-2 w-1440 md:w-1/2 lg:w-1/3">
           <FaSearch className="text-gray-500 mr-2" />
           <input
             type="text"
             placeholder="Search something here"
-            className="focus:outline-none w-full"
+            className="w-full"
           />
           <FaCog className="text-gray-500 ml-2" />
         </div>
@@ -34,19 +37,14 @@ const Navbar = () => {
           <Image
             src="/mypic.png"
             alt="/mypic.png"
-            width={250}
-            height={120}
-            className="w-8 h-8 rounded-full border-2 border-gray-300"
+            width={44}
+            height={44}
           />
-          {/* <img
-            src="/mypic.png"
-            alt="User Profile"
-            className="w-8 h-8 rounded-full border-2 border-gray-300"
-          /> */}
+        
         </div>
       </div>
     </nav>
   );
 };
 
-export default Navbar;
+export default Header;

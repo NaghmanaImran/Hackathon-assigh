@@ -42,7 +42,7 @@ const Footer = () => {
             <li><a href="#" className="hover:text-blue-600">Instagram</a></li>
             <li><a href="#" className="hover:text-blue-600">Twitter</a></li>
             <li><a href="#" className="hover:text-blue-600">Facebook</a></li>
-          </ul>
+          </ul>`````
         </div>
       </div>
 
