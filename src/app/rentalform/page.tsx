@@ -1,10 +1,14 @@
 import RentalForm from "../components/Rentalform "
-import Rentalform from "../components/Rentalform "
+import Sidebar from "../components/Sidebar"
+
 
 
 const page = () => {
   return (
-   <RentalForm/>
+    <div className='flex'>
+       <Sidebar />
+   <RentalForm />
+   </div>
   )
 }
 

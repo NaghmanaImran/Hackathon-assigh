@@ -29,7 +29,7 @@ const Header = () => {
         <div className="flex items-center space-x-4">
           <FaHeart className="text-gray-600 hover:text-blue-500 text-xl cursor-pointer" />
           <div className="relative">
-            <FaBell className="text-gray-600 hover:text-blue-500 text-xl cursor-pointer" />
+            <FaBell className="text-gray-600 hover:text-blue-500 w-11  cursor-pointer" />
             <span className="absolute top-0 right-0 bg-red-500 text-white text-xs font-bold rounded-full w-4 h-4 flex items-center justify-center">
               1
             </span>

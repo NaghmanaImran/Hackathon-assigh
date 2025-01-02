@@ -156,7 +156,7 @@ const RentalForm = () => {
               I agree with the terms and conditions.
             </p>
           </div>
-          <Link href="">
+          <Link href="/detailsrent">
           <button className="w-full bg-blue-600 text-white rounded-md mt-4 p-3 hover:bg-blue-700">
             Rent Now
           </button>

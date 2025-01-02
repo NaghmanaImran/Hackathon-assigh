@@ -4,7 +4,7 @@ import Image from "next/image";
 const Heero = () => {
   return (
     <div className="flex justify-center items-center min-h-screen bg-gray-100">
-      <div className="flex flex-col md:flex-row gap-6 w=[640] max-w-5xl">
+      <div className="flex flex-col md:flex-row gap-6 w-[640] max-w-5xl">
         {/* First Card */}
         <div className="relative bg-[#54A6FF] text-white rounded-lg p-8 width=[640px] h-[360px] max-w-lg shadow-lg overflow-hidden">
           {/* Background Pattern */}
