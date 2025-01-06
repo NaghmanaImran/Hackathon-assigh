@@ -19,7 +19,7 @@ export default function CarRentalUI() {
           <div className="flex-1">
             <h2 className="text-2xl font-bold text-gray-800">Nissan GT-R</h2>
             <p className="text-gray-600 mt-2">
-              NISMO has become the embodiment of Nissan s outstanding performance &lsquo; inspired by the most unforgiving proving ground &lsquo; the "race track".
+              NISMO has become the embodiment of Nissan s outstanding performance &lsquo; inspired by the most unforgiving proving ground &lsquo; the race track.
             </p>
             <div className="mt-4 flex flex-wrap gap-4 text-gray-700">
               <span>Type: Sport</span>
@@ -45,8 +45,8 @@ export default function CarRentalUI() {
               <Image
                 src="/View.png"
                 alt="Alex Stanton"
-                width={50}
-                height={50}
+                width={100}
+                height={100}
                 className="rounded-full"
               />
               <div>
@@ -65,8 +65,8 @@ export default function CarRentalUI() {
               <Image
                 src="/view2.png"
                 alt="Skylar Dias"
-                width={50}
-                height={50}
+                width={150}
+                height={150}
                 className="rounded-full"
               />
               <div>

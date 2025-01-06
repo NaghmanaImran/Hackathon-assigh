@@ -19,7 +19,11 @@ const Category = () => {
         </div>
         <p className="text-gray-500 text-sm">Sport</p>
         {/* Car Image */}
-        <Image src="/Car2.png" width={100} height={100} alt="Car 1" className="w-full h-[120px] object-contain my-4" />
+        <Image 
+        src="/Car2.png" 
+        alt="Car 1"
+        width={100} 
+        height={100}className="w-full h-[120px] object-contain my-4" />
         {/* Specifications */}
         <div className="flex justify-between text-gray-500 text-sm">
           <span>90L</span>
@@ -42,7 +46,14 @@ const Category = () => {
           <span className="text-gray-500 text-xl">♡</span>
         </div>
         <p className="text-gray-500 text-sm">Sport</p>
-        <img src="/Car1.png" alt="Car 2" className="w-full h-[120px] object-contain my-4" />
+
+        <Image
+         src="/Car1.png" 
+         alt="Car 2"
+         width={500}
+         height={500}
+         
+         className="w-full h-[120px] object-contain my-4" />
         <div className="flex justify-between text-gray-500 text-sm">
           <span>80L</span>
           <span>Manual</span>
@@ -63,7 +74,12 @@ const Category = () => {
           <span className="text-gray-500 text-xl">♡</span>
         </div>
         <p className="text-gray-500 text-sm">Sport</p>
-        <Image width={100} height={100} src="/Car.png" alt="Car 2" className="w-full h-[120px] object-contain my-4" />
+        <Image
+         src="/Car.png" 
+         alt="Car 2" 
+         width={100} 
+         height={100}
+         className="w-full h-[120px] object-contain my-4" />
         <div className="flex justify-between text-gray-500 text-sm">
           <span>80L</span>
           <span>Manual</span>
